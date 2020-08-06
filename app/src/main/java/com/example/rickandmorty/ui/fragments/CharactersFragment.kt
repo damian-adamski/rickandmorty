@@ -50,7 +50,7 @@ class CharactersFragment : Fragment(R.layout.fragment_characters) {
                     hideProgressBar()
                     response.message?.let { message ->
                         Log.e(this.tag, message)
-                        Toast.makeText(activity, message, Toast.LENGTH_SHORT)
+                        Toast.makeText(activity, message, Toast.LENGTH_SHORT).show()
                     }
                 }
                 is Resource.Loading -> {
