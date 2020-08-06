@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">rickandmorty</string>
+    <string name="character_status">Status:</string>
+    <string name="character_origin">Origin:</string>
+    <string name="character_locaation">Location:</string>
+    <string name="character_gender">Gender:</string>
+    <string name="title_activity_launcher">Rick&amp;Morty Universe</string>
+
+</resources>
