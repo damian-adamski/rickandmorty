@@ -18,7 +18,7 @@ class Results (val id: Int = -1,
 
         other as Results
         /* więcej pól nie trzeba sprawdzać, właściwie id byłoby wystarczające, ale może być ta sama postać dwa razy z różnymi id */
-        if (this.id != other.id) return false
+        //if (this.id != other.id) return false       // id sprawdzam w areItems the same, więc szkoda, żeby tutaj już zwróciło false
         if (this.characterName != other.characterName) return false
         if (this.species != other.species) return false
         if (this.gender != other.gender) return false
